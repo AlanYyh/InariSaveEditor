@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Inari 存档修改器
-===============
-单机游戏《Inari》的存档编辑工具，pywebview + HTML 界面。
 
-纯本地运行，不联网，仅读写用户手动选择的本地存档文件。
-"""
 import base64
 import json
 import os
@@ -121,7 +115,7 @@ def save_expanded(path, expanded):
     write_encrypted(path, outer)
 
 
-# ---------------- 后端 API ----------------
+
 class Api:
     def __init__(self):
         self.path = None
@@ -299,7 +293,7 @@ class Api:
         return self.open_save(self.path)
 
 
-# ---------------- 侧边栏布局 HTML ----------------
+
 HTML = r"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
