@@ -47,7 +47,7 @@ def skill_name(sid):
     return SKILL_NAMES.get(int(sid), f"技能 {sid}")
 
 
-# ---------------- 加解密 ----------------
+
 def _read_bytes(path):
     with open(path, "rb") as f:
         return f.read()
