@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# 自动生成：id -> 名称映射
+
 
 CHARACTER_NAMES = {
     1: "高岭",
